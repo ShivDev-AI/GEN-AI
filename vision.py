@@ -64,3 +64,7 @@ if submit:
     response=get_gemini_response(input,image)
     st.subheader("The Response is")
     st.write(response)
+
+if __name__ == "__main__":
+    import streamlit as st
+    st.run()
